@@ -1,0 +1,45 @@
+=======================================================================================================================
+                                                  SHELL USER MANUAL 
+=======================================================================================================================
+Welcome to myshell, a simple command line shell designed for beginners to UNIX.
+
+1. Getting started:
+	- To start using myshell, open a terminal window on your UNIX system.
+	- Navigate to the directory where myshell is located.
+
+2. Basic Commands:
+	- myshell supports various built in commands:
+		cd <directory>: Change the current working directory. If <directory> is not specified, display current.
+		clr : Clear the terminal screen.
+		dir <directory>: List the contents of the specified directory.
+		environ: Display all environment variables.
+		echo <comment>: Display the specified comment on the terminal.
+		help: Display this user manual using the more filter.
+		pause: Pause the operation of myshell until Enter is pressed.
+		quit: Exit myshell.
+
+3. Program Invocation
+	- Enter any other command line input to invoke external programs.
+	- myshell will edecute the programs as its own child processes.
+
+4. Input/Output Redirection
+	- myshell supports input/output redirection for command execution.
+	- To redirect output to a file, use the '>' symbol followed by the filename.
+	- To redirect input from a file, use the '<' symbol followed by the filename.
+
+5. Program Environment
+	- When executing external programs, myshelll sets the parent environment variable in the child process.
+	- This allows programs to access the shell environment.
+
+6. Background Program Execution
+	- To run a program in the background, append an ampersand '&' at the end of the command.
+	- The shell will continue to accept input while the program runs in the background.
+
+7. Using Batch Mode
+	- myshell supports batch mode, allowing you to execute commands from a file.
+	- Invoke myshell with a batch file as a command line argument to process commands from the file.
+
+=======================================================================================================================
+                                                END OF MANUAL
+=======================================================================================================================
+
